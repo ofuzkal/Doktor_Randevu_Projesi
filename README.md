@@ -1,6 +1,6 @@
-# 🏥 Doktor Randevu Yönetim Sistemi
+# 🏥 Doktor_Randevu_Projesi
 
-Modern ve kullanıcı dostu doktor randevu yönetim sistemi. React, TypeScript, Material-UI ve Redux Toolkit ile geliştirilmiştir.
+Modern ve kullanıcı dostu Doktor_Randevu_Projesi. React, TypeScript, Material-UI ve Redux Toolkit ile geliştirilmiştir.
 
 ## 📋 İçindekiler
 
@@ -72,7 +72,7 @@ Modern ve kullanıcı dostu doktor randevu yönetim sistemi. React, TypeScript, 
 ```bash
 # 1. Projeyi klonlayın
 git clone <repository-url>
-cd doktor-randevu-frontend
+cd Doktor_Randevu_Projesi
 
 # 2. Bağımlılıkları yükleyin
 npm install
@@ -136,7 +136,7 @@ Sistemi test etmek için aşağıdaki demo hesapları kullanabilirsiniz:
 ## 🏗️ Proje Yapısı
 
 ```
-doktor-randevu-frontend/
+Doktor_Randevu_Projesi/
 ├── public/                  # Static files
 │   ├── index.html          # HTML template
 │   └── favicon.ico         # App icon
@@ -322,7 +322,7 @@ vercel --prod
 npm install --save-dev gh-pages
 
 # package.json'a ekleyin
-"homepage": "https://username.github.io/doktor-randevu-frontend",
+"homepage": "https://username.github.io/Doktor_Randevu_Projesi",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
@@ -400,8 +400,8 @@ chore: araç güncellemeleri
 
 - **Proje Sahibi**: [@username](https://github.com/username)
 - **Email**: developer@example.com
-- **Issues**: [GitHub Issues](https://github.com/username/doktor-randevu-frontend/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/username/doktor-randevu-frontend/discussions)
+- **Issues**: [GitHub Issues](https://github.com/username/Doktor_Randevu_Projesi/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/username/Doktor_Randevu_Projesi/discussions)
 
 ## 📝 Lisans
 

@@ -80,7 +80,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   // Kullanıcı tipine göre panel başlığı
   const getPanelTitle = () => {
-    if (!user.isAuthenticated) return 'Doktor Randevu Sistemi';
+    if (!user.isAuthenticated) return 'Doktor_Randevu_Projesi';
     
     switch (user.userType) {
       case 'hasta':
@@ -90,7 +90,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       case 'yonetici':
         return 'Yönetici Paneli';
       default:
-        return 'Doktor Randevu Sistemi';
+        return 'Doktor_Randevu_Projesi';
     }
   };
 
@@ -163,7 +163,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   fontSize: { xs: '1rem', sm: '1.25rem' }
                 }}
               >
-                {isMobile ? 'Doktor Randevu' : 'Doktor Randevu Sistemi'}
+                {isMobile ? 'Doktor_Randevu_Projesi' : 'Doktor_Randevu_Projesi'}
               </Typography>
               {/* Desktop Menu */}
               {!isMobile && (
@@ -354,7 +354,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <Stack direction="row" justifyContent="space-between" alignItems="center" sx={{ mb: 2 }}>
             <Typography variant="h6" sx={{ display: 'flex', alignItems: 'center' }}>
               <LocalHospital sx={{ mr: 1 }} />
-              Doktor Randevu
+              Doktor_Randevu_Projesi
             </Typography>
             <Tooltip title="Menüyü kapat" arrow>
               <IconButton onClick={handleDrawerToggle} sx={{ color: 'inherit' }}>
